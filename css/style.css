@@ -1,0 +1,469 @@
+a {
+    color: inherit;
+    border-style: none;
+    border-bottom: none;
+    border: 0px;
+}
+
+
+a:hover {
+    color: inherit;
+    border-bottom: none;
+    border-style: none;
+    border: 0px;
+}
+
+a:active {
+    color: inherit;
+    border-bottom: none;
+    border-style: none;
+    border: 0px;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.nav-link:hover {
+    color: black !important;
+}
+
+/* tutup Navbar */
+/* Jumbrotoon  */
+.jumbotron {
+    background-image: url(../stock/header1.jpg);
+    height: 450px;
+    background-size: cover;
+
+}
+
+.jumbotron .head_blog {
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    letter-spacing: 5px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    /* margin-top: 140px; */
+}
+
+.jumbotron .head_blog span {
+    font-weight: bolder !important;
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+
+    /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* Jumbrotoon  habis */
+/* search */
+.fa-search {
+    color: white;
+    /* background-color: white; */
+}
+
+/* utility */
+
+.tombol {
+    color: white !important;
+    border-radius: 0px;
+    background-color: teal !important;
+    font-family: Viga;
+    font-size: 16px;
+    border: 1px solid teal !important;
+}
+
+/* tutup utility */
+
+/* info panel */
+.contact {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.contact_form label {
+    margin-top: 8px;
+    font-weight: bold !important;
+}
+
+.form-group {
+    text-align: left !important;
+}
+
+.form-control {
+    margin-top: 1px;
+
+}
+
+
+
+.info_panel .head_info {
+
+    color: black !important;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.info_panel .head_info_about {
+
+    font-family: 'Barlow', sans-serif;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 8px;
+
+}
+
+
+
+
+.info_panel .head_info_nama {
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    color: teal;
+
+}
+
+.info_panel_what {
+    font-family: 'Barlow', sans-serif;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 8px;
+}
+
+.info_panel p {
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.info_isi_about {
+    text-align: justify;
+}
+
+/* course */
+
+.course-title {
+    margin-top: 15px;
+}
+
+.course-desc {
+    margin-top: 15px;
+}
+
+
+
+
+/* info panel tutup */
+.card {
+    margin: 15px;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+    height: 55vw;
+}
+
+.card-img-top-course {
+    width: 100%;
+    object-fit: cover;
+    height: 50vw;
+
+}
+
+.card-img-top-about {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+/* Kategori */
+.card_kategori {
+    background-color: teal !important;
+    font-weight: bold;
+    font-size: 12px;
+    border: 2px solid teal;
+    width: 145px;
+    margin: 10px;
+
+}
+
+.card_kategori:hover {
+    background-color: white !important;
+    color: teal !important;
+}
+
+.tombol_biasa {
+    background-color: teal !important;
+    border: 1px solid teal !important;
+}
+
+.tombol_biasa:hover {
+    background-color: white !important;
+    color: teal !important;
+}
+
+article {
+    margin-top: 30px;
+}
+
+/* pagination */
+.pagination {
+    margin-top: 70px;
+}
+
+.kategori:focus,
+.kategori:hover,
+.kategori .card_kategori .yuhu:focus,
+.kategori .card_kategori .yuhu:hover,
+.kategori a:hover {
+    outline: none !important;
+    outline-style: none !important;
+}
+
+.pagination>li>a {
+    background-color: white;
+    color: teal;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>a {
+    color: white;
+    background-color: teal !Important;
+    border: solid 1px teal !Important;
+}
+
+.pagination>.active>a:hover {
+    background-color: teal !Important;
+    border: solid 1px teal;
+}
+
+/* footer */
+footer {
+    margin-top: 70px;
+    padding: 50px 0 65px;
+    background-color: black;
+}
+
+footer .list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+footer .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* Deskop */
+@media (min-width: 576px) {
+    .jumbotron .head_blog {
+        text-align: center;
+        font-size: 38px;
+        /* margin-top: 140px; */
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
+    }
+
+    .info_panel .head_info_nama {
+        font-size: 35px;
+
+    }
+
+    .card_kategori:hover {
+        background-color: white !important;
+        color: teal !important;
+    }
+
+    .card-img-top-about {
+        width: 100%;
+        object-fit: cover;
+        height: 350px;
+    }
+
+    .card-img-top-course {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .card-img-top {
+        width: 100%;
+        height: 26vw;
+        object-fit: cover;
+    }
+
+    .card-img-top-about {
+        width: 100%;
+        object-fit: cover;
+        height: 350px;
+    }
+
+    .card-img-top-course {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .course-title,
+    .course-desc,
+    .tombol_course {
+        text-align: left !important;
+        justify-content: left !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); */
+        font-weight: bold;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .tombol {
+        border-radius: 1000px;
+        padding: 3px 30px;
+        font-size: 20px;
+        background-color: teal !important;
+        color: white !important;
+        margin-top: 4px;
+        font-family: Viga;
+        font-size: 16px;
+        border: 1px solid teal !important;
+    }
+
+    .tombol:hover {
+        background-color: white !important;
+        color: teal !important;
+        border: 1px solid teal !important;
+    }
+
+    .tombol:active {
+        border: 1px solid teal !important;
+    }
+
+    .jumbotron .head_blog {
+        text-align: center;
+        color: white;
+        font-family: Helvetica;
+        font-weight: 5px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        letter-spacing: 5px;
+        font-size: 50px;
+        /* margin-top: 140px; */
+    }
+
+    /* Contact */
+    .contact {
+        text-align: justify;
+    }
+
+    .contact .contact_informasi {
+        text-align: justify;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .card-img-top-course {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .info_panel .head_info_nama {
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+        /* font-weight: bold; */
+        letter-spacing: 5px;
+        font-size: 35px;
+        text-align: right;
+        margin-top: 50px;
+        letter-spacing: 8px;
+        color: teal;
+        margin-right: 50px;
+
+    }
+
+    .info_panel p {
+        margin-top: 50px;
+        text-align: justify;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-img-top {
+        width: 100%;
+        object-fit: cover;
+    }
+}
