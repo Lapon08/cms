@@ -1,4 +1,5 @@
 <?php 
+// Mengonfirmasi Query
 function confirm($result){
     global $connection;
     if (!$result) {
@@ -6,6 +7,4 @@ function confirm($result){
     }
 
 }
-
-
 ?>

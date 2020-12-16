@@ -2,6 +2,9 @@
 ob_start();
 include 'db.php';
 include 'functions.php';
+session_start();
+
+
 
 ?>
 
@@ -25,6 +28,8 @@ include 'functions.php';
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap" rel="stylesheet">
+    <script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/classic/ckeditor.js"></script>
 </head>

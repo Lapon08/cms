@@ -1,29 +1,42 @@
 <?php 
 
-    include 'includes/admin_header.php';
+include 'includes/admin_header.php';
+
+
 ?>
 
+<body id="page-top">
+
+    <!-- Page Wrapper -->
     <div id="wrapper">
 
-        <?php 
-            include 'includes/admin_navigation.php';
-        ?>
+        <!-- Sidebar -->
+            <?php include 'includes/admin_sidebar.php';?>
+        <!-- End of Sidebar -->
 
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
 
+            <!-- Main Content -->
+            <div id="content">
 
-        <div id="page-wrapper">
+                <!-- Topbar -->
+                    <?php include 'includes/admin_topbar.php'; ?>
+                <!-- End of Topbar -->
 
-            <div class="container-fluid">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
 
-                <!-- Page Heading -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            Welcome to Admin
-                            <small>Author</small>
-                        </h1>
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Posts</h1>
                     </div>
-                    <div class="col-lg-12">
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- Content Column -->
+                        <!-- <div class="col-lg-6 mb-4"> -->
                         <?php 
                         
                             if (isset($_GET['source'])) {
@@ -43,21 +56,39 @@
                                     include 'includes/view_all_post.php';
                                     break;
                             }
-                        
-                        
-                        
+                    
+                    
+                    
                         ?>
 
-
+                        <!-- </div> -->
                     </div>
+
                 </div>
-                <!-- /.row -->
+                <!-- /.container-fluid -->
 
             </div>
-            <!-- /.container-fluid -->
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <?php 
+                include 'includes/admin_copyright.php';         
+            ?>
+            <!-- End of Footer -->
 
         </div>
-        <!-- /#page-wrapper -->
-<?php 
-    include 'includes/admin_footer.php';
-?>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <?php include 'logout_modal.php';?>
+
+
+    <?php include 'includes/admin_footer.php'; ?>
