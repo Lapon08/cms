@@ -83,6 +83,7 @@ include 'includes/admin_header.php';
                                                 `about_photo`='$about_image_new' WHERE about_id = 1";
                                 $about_update = mysqli_query($connection,$query);
                                 confirm($about_update); 
+                                header("Location: about_text.php");
             ?>
 
             <div class="alert alert-primary" role="alert" style="margin-left: 10px;">

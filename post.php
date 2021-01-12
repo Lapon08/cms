@@ -27,7 +27,7 @@
                 $post_content = $row['post_content'];
                 ?>
                 <!-- thumbnail post -->
-<div class="jumbotron jumbotron-fluid vertical-center" style="background-image: url(images/post/<?php echo $post_image?>);">
+<div class="jumbotron jumbotron-fluid vertical-center" style="background-image: url('images/post/<?php echo $post_image?>');">
         <div class="container">
         </div>
     </div>

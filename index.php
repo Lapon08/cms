@@ -85,7 +85,7 @@
     <div class="row justify-content-center text-center">
             <?php 
             // jumlah post yang ditampilkan
-            $post_count = 8;
+            $post_count = 9;
             // pagination
             if (isset($_GET['page'])) {
                 $page = $_GET['page'];

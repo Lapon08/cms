@@ -122,7 +122,7 @@
 
                 <div>
                     <!-- Forgot password -->
-                    <a href="forgot-password.php?forgot=<?php echo uniqid(true) ?>">Forgot password?</a>
+                   
                 </div>
             </div>
 

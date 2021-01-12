@@ -50,7 +50,14 @@ if (isset($_POST['edit_profile'])) {
                     user_image = '$user_image_new' 
                     WHERE `user_id` = $user_id";
     $user_profile_update = mysqli_query($connection,$query);
-    confirm($user_profile_update); ?>
+    confirm($user_profile_update);
+    $_SESSION['user_username'] = $user_username;
+    $_SESSION['user_email'] = $user_email;
+    $_SESSION['user_firstname'] = $user_firstname;
+    $_SESSION['user_lastname'] = $user_lastname;
+    
+    
+    ?>
 
     <div class="alert alert-primary" role="alert" style="margin-left: 10px;">
         Profile Updated <a href="profile.php"  class="alert-link">View Profile</a>
